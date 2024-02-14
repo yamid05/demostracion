@@ -1,12 +1,90 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de registrop de apps</title>
-</head>
-<body>
-    
-    
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Yamid Sanchez">
+    <meta name="description" content="Portafolio de trabajo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catalogo de proyectos</title>
+    <link rel="icon" type="image/x-icon" href="css/img/portafolio.png"> <!--poner el favicon-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link  href="css/style.css" rel="stylesheet">
+    <!-- Tipo de letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#"><img src="css/img/portafolio.png" id="imagenNavbar"> </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section class="yo align-items-stretch">
+        <div class="yo-principal">
+            <img src="img/yo.jpg" width="350px" id="yo" class="rounded-circle">
+            <h1>Soy Yamid Sanchez</h1>
+            <h2>Soy ingeniero en Sistemas con experiencia en el campo del desarrollo web usando herramientas como javascript y css. Amplia experiencia en el campo de la educación. Bilingue</h2>
+        </div>
+        <div class="yo-inferior justify-content-center align-items-center d-flex">
+            <img src="img/hero-inferior.svg" class="yo-inferior-imagen img-fluid">
+        </div>
+    </section>
+    <section class="sobre-mi seccion-oscura">
+      <div class="container">
+        <h2 class="seccion-titulo"> Conoce un poco de </h2>
+        <p class="seccion-texto">Ingeniero en sistemas apasionado por la informatica que le encanta afrontar nuevos retos y oportunidades</p>
+
+      </div>
+    </section>
+
+      <!-- seccion de experiencia -->
+      <section class="experiencias seccion-clara">
+        <div class="row">
+          
+          <div class="columna col-12 col-md-4">
+            <!-- desarrollo web -->
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo web</p>
+            <p>Ingeniero en Sistemas con conocimientos en desarrollo de aplicaciones y servicios web con fuertes conocimientos en Html, javascript, php, sql y en trabajo de frameworks como boostrap o spring</p>
+             
+          </div>
+            <!-- Analista de datos -->
+          <div class=" columna col-12 col-md-4">
+            <i class="bi bi-bar-chart"></i>
+            <p class="experiencia-titulo">Analista de datos</p>
+            <p>Especialista en analitica de datos con conocimiento en PHyton y analisis de bigdata</p>
+              
+          </div>
+          <!-- Docente -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-bookmark-star"></i>
+            <p class="experiencia-titulo">Docente</p>
+            <p>Docente con amplia experiencia en educación para niños y jovenes de todas las edades Bilingue</p>
+          </div>
+          
+          
+        </div>
+      </section>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>
